@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200&family=Dosis&family=Fugaz+One&family=Gochi+Hand&family=Philosopher&family=Poor+Story&family=Roboto:wght@300;400&family=Rubik+Dirt&family=Source+Sans+Pro&family=Space+Mono&family=Special+Elite&display=swap');
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Roboto', sans-serif;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .gochiFont {
+    font-family: 'Gochi Hand', cursive;
+  }
+
+  .robotoFont {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .navImg {
+    min-width: 15rem;
+    height: auto;
+  }
+
+  .nav-link, .nav-link:hover, .nav-link:visited {
+    color: black;
+  }
+
+  #guruNavText{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  #guruNavAbb {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem; 
+    letter-spacing: 1.8rem;
+  }
+
+  .headerCont {
+    color: white;
+  }
+
+  .heroImgCont {
+    border-radius: 10rem;
+    max-width: 45rem;
+    height: auto;
+  }
+
+  .heroImg {
+    border-radius: 10rem;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  .headerNameText {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 3rem;
+  }
+
+  .headerRapNameText {
+    font-size: 5rem;
+    margin-left: 2rem;
+  }
+
+  .guruOnStage {
+    max-width: 15rem;
+    height: auto;
+    background-image: url('../assets/guruOnStage.jpg');
+    background-size: contain;
+    border-style: groove;
+  }
+
+footer {
+    height: 4rem;
+}
+
+.timeLineImages {
+    max-width: 15rem;
+    height: auto;
+}
+
+#img1 {
+    transform: rotate(-20deg);
+}
+
+#img2 {
+    transform: rotate(20deg);
+    transform-origin: 20% 0%;
+    max-width: 18rem;
+    height: auto;
+}
+
+#img3 {
+    transform: rotate(-23deg);
+    transform-origin: 40% 100%;
+    max-width: 20rem;
+    height: auto;
+}
+
+#img4 {
+    transform: rotate(25deg);
+    transform-origin: 20% 25%;
+    max-width: 20rem;
+    height: auto;
+}
+
+.achievementsHeroImg {
+    max-width: 30rem;
+    height: auto;
+    border-radius: 20rem;
+    margin-top: 1rem;
+    
+}
+
+.rowWithHeroImg {
+    float: right;
+}
+
+#banner {
+    background-image: url('../assets/microphone.jpg');
+    background-size: cover;
+    min-height: 20rem;
+    width: 100%;
+    position: relative;
+}
+
+#quotesTitle {
+    font-size: 3.5rem;
+    margin-left: 2rem;
+}
+
+#quotesSubtitle {
+    font-size: 2.8rem;
+    margin-right: 4rem;
+}
